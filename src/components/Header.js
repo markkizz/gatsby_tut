@@ -1,13 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import "../styles/Header.scss"
 
 const Header = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title,
+          author
+        }
+      }
+    }
+  `)
   return (
     <header className="Header-header">
       <h1>
         <Link to="/" className="Header-title">
-          Markriz
+        {data.site.siteMetadata.author}
         </Link>
       </h1>
       <nav>

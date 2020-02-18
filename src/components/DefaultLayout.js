@@ -6,7 +6,7 @@ import "../styles/DefaultLayout.scss"
 export default function DefaultLayout(props) {
   return (
     <div className="container">
-      <div Layout-content>
+      <div className="Layout-content">
         <Header />
         {props.children}
         <Footer />

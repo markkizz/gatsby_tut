@@ -1,6 +1,8 @@
 import React from "react"
 import {Link} from 'gatsby';
 import Footer from '../components/Footer';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const IndexPage = () => {
   return (

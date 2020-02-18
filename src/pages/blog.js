@@ -1,10 +1,20 @@
-import React from 'react'
+import React from "react"
 
-export default function ContactPage() {
+import Layout from "../components/DefaultLayout"
+
+const ContactPage = () => {
   return (
-    <>
+    <Layout>
       <h1>Contact</h1>
-      <p>0634211814</p>
-    </>
+      <p>
+        The best way to reach me is via
+        <a href="https://github.com/markkizz" target="_blank">
+          @markkizz
+        </a>
+        on github
+      </p>
+    </Layout>
   )
 }
+
+export default ContactPage

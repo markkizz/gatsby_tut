@@ -2,19 +2,13 @@ import React from "react"
 
 import Layout from "../components/DefaultLayout"
 
-const ContactPage = () => {
+const BlogPage = () => {
   return (
     <Layout>
-      <h1>Contact</h1>
-      <p>
-        The best way to reach me is via
-        <a href="https://github.com/markkizz" target="_blank">
-          @markkizz
-        </a>
-        on github
-      </p>
+      <h1>Blog</h1>
+      <p>Posts will show up here later on.</p>
     </Layout>
   )
 }
 
-export default ContactPage
+export default BlogPage

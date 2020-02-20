@@ -1,7 +1,7 @@
 ---
 
 title: "The gatsby tutorial"
-date: "2020-02-18
+date: "2020-02-18"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 
-title: "The gatsby tutorial"
+title: "The gatsby with react"
 date: "2020-02-18"
 
 ---
